@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+div.rtc-dropdown .rtc-dropdown-menu {
+  z-index: 9;
+  border: 1px solid #e9ecef;
+  -webkit-box-shadow: 0 0 13px 0 rgba(236, 236, 241, 0.44);
+  box-shadow: 0 0 13px 0 rgba(236, 236, 241, 0.44);
+  background-color: #fff;
+  border-color: #e9ecef;
+}
+
+div.rtc-dropdown .rtc-dropdown-toggle {
+  background-color: transparent;
+}
+
+#btn-fullscreen {
+  border: none;
+  background: transparent;
+}
+
+.btn-warning, .bg-warning {
+  background-color: #ffb848 !important;
+}
+
+.wrapper-page .card.account-card {
+  border-radius: 30px;
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-page .card.account-card .bg-warning {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.wrapper-page .logo-admin {
+  border-bottom: 2px solid #3cbeb2;
+}
+
+.table td, .table th {
+  vertical-align: middle !important;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.report-header {
+  background-color: #eaeaea;
+}
+
+.report-symbol {
+  background-color: #f7f7f7;
+}
+
+.company-logo {
+  height: 20px;
+}
+
+.explanation {
+  font-size: 12px;
+}
+
+.explanation code {
+  display: block;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.copy-button {
+  border: none;
+  background-color: transparent;
+}
+
+.copy-button:active {
+  opacity: 0.7;
+}
+
+.form-group-sm {
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.form-group-sm .col-form-label {
+  font-size: 0.775rem;
+}
+
+.content-page {
+  min-height: 850px;
+  bottom: 60px;
+}
+
+.normal-wrap {
+  white-space: normal !important;
+}
+
+.grayscale{
+  filter: grayscale(1);
+  opacity: .4;
+}
+
+.card-logo{
+  background-color: white;
+  text-align: right;
+}
+
+#sidebar-menu > ul > li > a {
+  padding: 5px 20px;
+  font-size: 13px;
+}
+#sidebar-menu ul li a i {
+  font-size: 13px;
+}
+
+/* DATEPICKER START */
+
+.react-calendar__tile--rangeStart {
+  background: #172452 !important;
+  color: white;
+}
+
+.react-calendar__tile--rangeEnd {
+  background: #172452 !important;
+  color: white;
+}
+
+.react-calendar__tile--active {
+  background: #172c78 !important;
+}
+
+.react-calendar__tile:enabled:hover {
+  background-color: #172452 !important;
+  border-radius: 0;
+  color: white;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #ea0d0d;
+}
+
+.react-calendar__tile--hover {
+  background-color: #172452 !important;
+  color: white;
+}
+
+.date-range-picker {
+  width: unset;
+}
+
+.react-daterange-picker__wrapper {
+  border: unset !important;
+}
+
+.react-daterange-picker__clear-button, .react-daterange-picker__clear-button:hover {
+  color: #ea0d0d !important;
+}
+
+.react-calendar__tile--active.react-calendar__tile--rangeStart, .react-calendar__tile--active.react-calendar__tile--rangeEnd {
+  background: #172452 !important;
+}
+
+.react-calendar__tile--active.react-calendar__tile--rangeStart {
+  border-top-left-radius: 10px;
+}
+
+.react-calendar__tile--active.react-calendar__tile--rangeEnd {
+  border-bottom-right-radius: 10px;
+}
+
+.react-calendar__tile--active.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd {
+  border-radius: 0 !important;
+  border-top-left-radius: 10px;
+}
+
+.tbl-customer .rdt_TableCell {
+  display: block;
+  margin: auto 0 auto 0;
+}
+
+.add-new-button {
+  right: 1.5em;
+}
+
+.rebate-filter-select {
+  right: 9em;
+}
+
+.bg-company1 {
+  background-color: #172452 !important;
+  color: white !important;
+}
+
+.bg-company2 {
+  background-color: #ffb848 !important;
+}
+
+.modal-body-scrollable {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.topbar .topbar-left {
+  background: rgba(51, 53, 71, 0.81) !important;
+  border-right: 1px #333547 solid;
+}
+
+.wrapper-page {
+  margin: 2.5% auto !important; 
+}
+.bg-dark.p-4.text-white.text-center.position-relative {
+  border-top-left-radius: 1.50rem;
+  border-top-right-radius: 1.50rem;
+}
+
+.xd-login a.logo.logo-admin img {
+  margin-top: -5px;
+}
+
+.mini-stat .mini-stat-img {
+  width: 58px;
+  height: 58px;
+  line-height: 68px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.mini-stat{
+  width: 220px;
+}
+
+.card-bottom-sett{
+  margin-bottom: 0px;
+}
+.card-style{
+  margin-bottom: 30px;
+  background-color: #fff;
+  background-clip: border-box;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(236, 236, 241, 0.44);
+    box-shadow: 0px 0px 13px 0px rgba(236, 236, 241);
+  border-radius: .25rem;
+}
+
+.card-style .card{
+  box-shadow: none;
+}

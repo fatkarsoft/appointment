@@ -1,0 +1,39 @@
+#wrapper .btn-primary {
+  background-color: #3cbeb2;
+  border: 1px solid #3cbeb2;
+}
+#wrapper .btn-danger {
+  background-color: #e71858;
+  border: 1px solid #e71858;
+}
+#wrapper .topbar .topbar-left {
+  /* background: rgba(51, 53, 71, 0.81) !important; */
+  border-right: 1px #e71858 solid !important;
+  background: #e71858 !important;
+}
+#wrapper .topbar .navbar-custom {
+  background-color: #ffffff;
+}
+#wrapper .topbar .navbar-custom .button-menu-mobile {
+  background-color: #ffffff;
+}
+#wrapper .side-menu {
+  background: #ffffff;
+}
+#wrapper .side-menu #sidebar-menu ul li a {
+  padding: 17px 25px;
+  cursor: pointer;
+  min-height: 44px;
+  font-size: 1rem;
+}
+#wrapper .side-menu #sidebar-menu ul li a.active {
+  background-color: #3cbeb2;
+  color: #fff !important;
+}
+#wrapper .side-menu #sidebar-menu ul li a i {
+  font-size: 16px;
+  transition: all 0.4s;
+}
+#wrapper .side-menu #sidebar-menu ul li a:hover i {
+  transform: scale(1.2);
+}
